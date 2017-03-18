@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+
+<!-- RESOURCES: -->
+<!-- 
+    
+    DATA VISUALISATION: http://www.chartjs.org/docs/#getting-started-download-chart-js
+    
+    
+    
+     -->
+
+
+<html>
+<head>
+    <title>Project Ruby - Input Module - DEBUG Page</title>
+    <meta charset="utf-8" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+
+    <!-- using github base css for debugger -->
+    <link href="https://assets-cdn.github.com/assets/frameworks-a4f2fd2194ac92143e2698e03e7a16834295fcca38543fc5737201884315ebe9.css" rel="stylesheet" />
+
+
+
+</head>
+
+<body id="body" style="padding: 20px">
+
+    <div style="width:100%; text-align:center">
+        <div style="display: inline-block;">
+            <h1 style="margin:auto">Project Ruby - Input Module - DEBUG Page</h1>
+            <h6>version: 0.3</h6>
+        </div>
+    </div>
+    <p> [key-code of last key released]:  <span class="keycode-display"> </span></p>
+    <p> [last key released]: <span class="text-display"> </span></p>
+
+    <div>
+        <canvas id="myChart" width="800" height="200" ></canvas>
+    </div>
+
+    <div>
+        <br />
+        <p>[debug output]: </p>
+        <p id="outputJson"></p>
+        </div>
+
+    <script src="js/chartGenerator.js"></script>
+    <script src="js/code.js"></script>
+    <script src="js/callbacks.js"></script>
+
+</body>
+</html>
