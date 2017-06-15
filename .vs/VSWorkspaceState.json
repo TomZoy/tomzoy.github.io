@@ -1,16 +1,7 @@
 {
   "ExpandedNodes": [
-<<<<<<< HEAD
     ""
   ],
-=======
-    "",
-    "\\css",
-    "\\fonts",
-    "\\img",
-    "\\js"
-  ],
-  "SelectedNode": "\\js\\socialIcons.js",
->>>>>>> refs/remotes/origin/dev
+  "SelectedNode": "\\index.html",
   "PreviewInSolutionExplorer": false
 }
