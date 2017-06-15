@@ -52,7 +52,7 @@
 
 .social-icon {
     display: inline;
-    //position: absolute;
+    /*position: absolute;*/
     float: right;
     z-index: 1;
     top:0;
@@ -93,4 +93,12 @@
     background-repeat: repeat;
     margin-top: 0;
     
+}
+
+.title-icon {
+    color: #555555;
+    text-decoration: none;
+    float: none;
+    position: relative;
+    left: 1em;
 }

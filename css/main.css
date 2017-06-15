@@ -694,3 +694,24 @@ body {
     top: -2px;
 }
 
+.backbutton {
+    position: absolute;
+    width: 150px;
+    left: 0px;
+    top: 0px;
+    margin: 0;
+}
+
+.resume-item-title a {
+    padding-left: 10px;
+    padding-right: 10px;
+    border:none !important;
+    text-decoration: none !important;
+}
+    .resume-item-title a:hover {
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        border-bottom-width: thin;
+        color: #333 !important;
+        border-bottom: 1px solid !important;
+    }
