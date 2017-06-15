@@ -250,6 +250,26 @@ body {
     zoom: 1
 }
 
+
+
+.wrapper-big:before,
+.wrapper-big:after {
+    content: "";
+    display: table
+}
+
+.wrapper-big:after {
+    clear: both
+}
+
+.wrapper-big {
+    max-width: 900px;
+    padding: 0 24px;
+    margin: 0 auto;
+    zoom: 1
+}
+
+
 .group:before,
 .group:after {
     content: "";
@@ -694,3 +714,89 @@ body {
     top: -2px;
 }
 
+.backbutton {
+    position: absolute;
+    width: 150px;
+    left: 0px;
+    top: 0px;
+    margin: 0;
+}
+
+.resume-item-title a {
+    padding-left: 10px;
+    padding-right: 10px;
+    border:none !important;
+    text-decoration: none !important;
+}
+    .resume-item-title a:hover {
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        border-bottom-width: thin;
+        color: #333 !important;
+        border-bottom: 1px solid !important;
+    }
+
+#tabs{
+    border:none;
+}
+
+#tabUL {
+    display: table;
+    margin: 0 auto;
+    border: none;
+    background: unset;
+    color: initial;
+    font-weight: inherit;
+    border-bottom: 2px solid #c7c7c7;
+}
+
+
+a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover, .ui-state-active {
+    border: 1px solid #555555 !important;
+    background: #555555 !important;
+}
+
+
+.tabTitle {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    margin: 0 0 .75rem;
+    font-size: 1.5rem;
+    letter-spacing: -.05rem;
+    line-height: 1;
+}
+
+.subPage-header {
+    padding:0;
+}
+
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active,
+a.ui-button:active,
+.ui-button:active,
+.ui-button.ui-state-active:hover {
+    border: 1px solid #555555 !important;
+    background: #555555 !important;
+    font-weight: normal;
+    color: #ffffff;
+}
+
+    .ui-icon-background,
+    .ui-state-active .ui-icon-background {
+        border: #555555 !important;
+        background-color: #ffffff;
+    }
+
+.ui-visual-focus {
+    box-shadow: none !important;
+}
+
+
+#tabUL li:focus {
+    outline: none;
+}
+
+#tabUL li a:focus {
+    outline: none;
+}
