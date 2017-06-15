@@ -1,9 +1,6 @@
-$(document).ready(function () {
-    $('i').hide();
-});
+
 
 $(window).load(function () {
-    $('i').show();
 
     var twitterPos = $('#twitter').position();
     var githubPos = $('#github').position();
@@ -21,16 +18,16 @@ $(window).load(function () {
     //    left: '47%'
     //});
 
-    setTimeout(function () {
-        $('#twitter').animate({
-            top: twitterPos.top + 10,
-        }, 500);
-    }, 250);
+    //setTimeout(function () {
+    //    $('#twitter').animate({
+    //        top: twitterPos.top + 10,
+    //    }, 500);
+    //}, 250);
 
     setTimeout(function () {
-        $('#twitter').animate({
-            top: twitterPos.top,
-        }, 250);
+        //$('#twitter').animate({
+        //    top: twitterPos.top,
+        //}, 250);
 
         $('#github').animate({
             top: githubPos.top + 10,
@@ -72,26 +69,26 @@ $(window).load(function () {
             top: pluralPos.top,
         }, 250);
 
-        $('#plus').animate({
-            top: plusPos.top + 10,
-        }, 500);
+        //$('#plus').animate({
+        //    top: plusPos.top + 10,
+        //}, 500);
     }, 1500);
 
-    setTimeout(function () {
-        $('#plus').animate({
-            top: plusPos.top,
-        }, 250);
+    //setTimeout(function () {
+    //    $('#plus').animate({
+    //        top: plusPos.top,
+    //    }, 250);
 
-        $('#mail').animate({
-            top: mailPos.top + 10,
-        }, 500);
-    }, 1750);
+    //    $('#mail').animate({
+    //        top: mailPos.top + 10,
+    //    }, 500);
+    //}, 1750);
 
-    setTimeout(function () {
-        $('#mail').animate({
-            top: mailPos.top,
-        }, 250);
-    }, 2000);
+    //setTimeout(function () {
+    //    $('#mail').animate({
+    //        top: mailPos.top,
+    //    }, 250);
+    //}, 2000);
 
 })
 

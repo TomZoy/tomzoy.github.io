@@ -683,3 +683,14 @@ body {
     margin-bottom: 0.6em !important;
 }
 
+.topTitle {
+    padding: 0 !important;
+    margin-top: 5px;
+}
+
+#plural {
+    height: 18px;
+    position: relative;
+    top: -2px;
+}
+
