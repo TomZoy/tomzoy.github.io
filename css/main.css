@@ -791,3 +791,12 @@ a.ui-button:active,
 .ui-visual-focus {
     box-shadow: none !important;
 }
+
+
+#tabUL li:focus {
+    outline: none;
+}
+
+#tabUL li a:focus {
+    outline: none;
+}
